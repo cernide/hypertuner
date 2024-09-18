@@ -7,7 +7,7 @@ from clipped.utils.np import sanitize_dict, sanitize_np_types
 from hypertuner.logger import logger
 from polyaxon.client import RunClient
 from polyaxon.schemas import V1Join
-from traceml.artifacts import V1ArtifactKind, V1RunArtifact
+from tracer.artifacts import V1ArtifactKind, V1RunArtifact
 
 
 def get_iteration_definition(

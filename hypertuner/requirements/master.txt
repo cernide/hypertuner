@@ -1,2 +1,2 @@
--e git+https://github.com/cernide/traceml.git@master#egg=traceml&subdirectory=traceml
+-e git+https://github.com/cernide/tracer.git@master#egg=tracer&subdirectory=tracer
 -e git+https://github.com/cernide/cli.git@master#egg=polyaxon&subdirectory=cli
