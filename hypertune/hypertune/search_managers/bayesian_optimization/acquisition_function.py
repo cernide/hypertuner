@@ -99,7 +99,7 @@ class UtilityFunction:
             # Find the minimum of minus the acquisition function
             res = minimize(
                 lambda x: -self.compute(x.reshape(1, -1), y_max=y_max),
-                x_try.flatten(),
+                x_try.reshape(1, -1),
                 bounds=bounds,
                 method="L-BFGS-B",
             )
