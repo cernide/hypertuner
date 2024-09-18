@@ -1,0 +1,7 @@
+NAME = "hypertuner"
+VERSION = "1.1.0"
+DESC = "A library for performing hyperparameter optimization with Polyaxon."
+URL = "https://github.com/cernide/hypertuner"
+AUTHOR = "Polyaxon, Inc."
+EMAIL = "contact@polyaxon.com"
+LICENSE = "Apache 2.0"
